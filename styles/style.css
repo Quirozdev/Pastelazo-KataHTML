@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 0 auto;
+}
+
+h1, h2, footer {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: red;
+    opacity: 0.75;
+    text-shadow: 1px 2px 3px yellow;
+}
+
+h2 {
+    font-size: 28px;
+    color: brown;
+}
+
+table, th, td {
+    border: solid 2px red;
+}
+
+tr {
+    background-color: pink;
+}
+
+th {
+    font-size: 24px;
+    color: purple;
+}
+td {
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#logo, h1 {
+    display: inline;
+}
+
+header, footer {
+    background-color: rgb(255, 174, 201);
+}
+
+ul {
+    /* para quitar los "puntitos"/viñetas detrás de cada elemento de la lista*/
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    display: block;
+    height: 40px;
+}
+
+#ligaInicio {
+    background-color: white;
+}
+
+#ligaPedido {
+    background-color: greenyellow;
+}
+
+#ligaSobre {
+    background-color: yellow;
+}
+
+#ligaInventario {
+    background-color: cornflowerblue;
+}
+
+#ligaInformacionPedidos {
+    background-color: springgreen;
+}
+
+.ligaNav {
+    text-decoration: none;
+    font-size: 20px;
+    color: firebrick;
+}

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#contenedorLogo {
+    text-align: center;
+    background-color: rgb(255, 174, 201);
+  }
+
+  a {
+    font-size: 18px;
+    text-align: center;
+  }
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: brown;
+    margin: 0px 0px 16px 0px;
+    background-color: cornflowerblue;
+}
+
+h2 {
+    font-size: 28px;
+    color: brown;
+}
+
+table, th, td {
+    border: solid 2px red;
+}
+
+tr {
+    background-color: pink;
+}
+
+th {
+    font-size: 24px;
+    color: purple;
+}
+td {
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+}
